@@ -2,10 +2,55 @@ body {
     background: rgb(180, 177, 177)
 }
 
+.principal{
+    background: gray;
+    padding: 30px;
+}
+
+.itens{
+    font-style: italic;
+}
+
+.beneficios{
+    background: gray;
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20;
+    margin-right: 15%;
+}
+
+.imgbeneficios{
+    width: 50%;
+}
+
 p{
     text-align: center;
 }
 
 em strong{
     color: #03d65b
+}
+
+#banner{
+    width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+#missao{
+    font-size: 20px;
+}
+
+#beneficios{
+    width: 100%;
 }
