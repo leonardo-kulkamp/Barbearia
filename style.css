@@ -54,3 +54,11 @@ h1 {
 #beneficios{
     width: 100%;
 }
+
+.titulo-principal{
+    padding-left: 20px;   
+}
+
+.centralizado{
+    text-align: center;
+}
