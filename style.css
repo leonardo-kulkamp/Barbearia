@@ -1,129 +1,148 @@
 body{
-margin : 0px;
-padding: 0px;
+    margin: 0px;
+    padding: 0px;
+    background: #0B0F14;
+    color: #EAEAEA;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+/* HEADER */
 header {
-background: #BBBBBB;
-padding: 20px 0;
+    background: #0F172A;
+    padding: 20px 0;
+    border-bottom: 2px solid #D4AF37;
 }
 
 .caixa {
-position: relative;
-width: 940px;
-margin: 0 auto;
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
+/* MENU */
 nav {
-position: absolute;
-top: 110px;
-right: 0;
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
 nav li {
-display: inline;
-margin: 0 0 0 15px;
+    display: inline;
+    margin: 0 0 0 15px;
 }
 
 nav a {
-text-transform: uppercase;
-color: #000000;
-font-weight: bold;
-font-size: 22px;
-text-decoration: none;
+    text-transform: uppercase;
+    color: #EAEAEA;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    transition: 0.3s;
 }
 
 nav a:hover {
-color: #C78C19;
-text-decoration: underline;
+    color: #D4AF37;
 }
 
+/* MAIN */
 main {
-width: 940px;
-margin: 0 auto;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .principal{
-background: #CCCCCC;
-padding: 5%;
-
+    background: #111827;
+    padding: 5%;
+    border-radius: 10px;
 }
 
+/* BENEFÍCIOS */
 .beneficios {
-background: #BBBBBB;
-padding: 20px;
-font-size:20px;
+    background: #0F172A;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-left: 4px solid #D4AF37;
 }
 
 .beneficios ul {
-display: inline-block;
-vertical-align: top;
-width: 20%;
-margin-right: 15%;
-line-height : 2.0;
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    line-height: 2.0;
 }
 
 .imagembeneficios {
-width: 50%;
+    width: 50%;
+    border-radius: 10px;
 }
 
 /* PRODUTOS */
 .produtos {
-width: 940px;
-margin: 0 auto;
-padding: 50px 0;
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
 
 .produtos li {
-display: inline-block;
-text-align: center;
-width: 30%;
-vertical-align: top;
-margin: 0 1.5%;
-padding: 30px 20px;
-box-sizing: border-box;
-border: 2px solid #000000;
-border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    background: #0F172A;
+    transition: 0.3s;
 }
 
 .produtos li:hover {
-border-color: #C78C19;
+    border-color: #D4AF37;
+    transform: translateY(-5px);
 }
 
 .produtos li:active {
-border-color: #088C19;
+    border-color: #10B981;
 }
 
 .produtos li:hover h2 {
-font-size: 34px;
+    font-size: 34px;
+    color: #D4AF37;
 }
 
 .produtos h2 {
-font-size: 30px;
-font-weight: bold;
+    font-size: 30px;
+    font-weight: bold;
+    color: #EAEAEA;
 }
 
 .produto-descricao {
-font-size: 18px;
+    font-size: 18px;
+    color: #CBD5E1;
 }
 
 .produto-preco {
-font-size: 22px;
-font-weight: bold;
-margin-top: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #D4AF37;
 }
 
-
+/* FOOTER */
 footer {
-text-align: center;
-background: url("bg.jpg");
-padding: 10px 0;
+    text-align: center;
+    background: #0F172A;
+    padding: 10px 0;
+    border-top: 1px solid #334155;
 }
 
 .copyright {
-color: #FFFFFF;
-font-size: 13px;
-margin: 20px 0 0;
+    color: #94A3B8;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
 
 /* CONTATO */
@@ -135,7 +154,7 @@ form {
 
 form h1 {
     text-align: center;
-    background-color: orange;
+    color: #D4AF37;
 }
 
 form label,
@@ -143,6 +162,7 @@ form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
+    color: #EAEAEA;
 }
 
 select,
@@ -151,6 +171,10 @@ textarea {
     line-height: 1.5;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
+    background: #111827;
+    color: #EAEAEA;
+    border: 1px solid #334155;
+    border-radius: 5px;
 }
 
 .input-texto {
@@ -158,38 +182,42 @@ textarea {
     font-size: 18px;
     height: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #111827;
+    color: #EAEAEA;
+    border: 1px solid #334155;
 }
 
 .enviar {
     width: 30%;
     padding: 15px;
-    background: orange;
+    background: #D4AF37;
     font-size: 18px;
     border: none;
     border-radius: 5px;
-    transition: 1s all;
+    transition: 0.3s;
     cursor: pointer;
     margin: auto;
     display: block;
+    color: #0B0F14;
 }
 
 .enviar:hover {
-    background: darkorange;
-    transform: scale(1.2);
+    background: #b8912e;
+    transform: scale(1.05);
     font-style: italic;
 }
 
-
-/*tabela de horarios */
+/* HORARIOS */
 .horarios {
     text-align: center;
     line-height: 1.2;
     font-size: 18px;
-    border: solid gray 2px;
-    box-sizing: flex;
+    border: 1px solid #334155;
     margin-bottom: 20px;
+    background: #0F172A;
+    color: #EAEAEA;
 }
 
 .itens {
-    font-style: italic
+    font-style: italic;
 }
