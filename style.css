@@ -304,3 +304,39 @@ main,
         width: 100%;
     }
 }
+
+/* CONTATO RESPONSIVO - CORREÇÃO EXTRA */
+
+form {
+    width: 90%;
+    max-width: 940px;
+    margin: 40px auto;
+}
+
+/* Inputs ocupando toda largura no mobile */
+@media (max-width: 768px) {
+
+    fieldset {
+        padding: 10px;
+    }
+
+    .input-texto {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    form p {
+        margin: 10px 0;
+    }
+}
+
+form {
+    margin: 40px auto;
+}
