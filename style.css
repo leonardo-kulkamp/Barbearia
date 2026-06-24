@@ -221,3 +221,86 @@ textarea {
 .itens {
     font-style: italic;
 }
+
+/* RESPONSIVIDADE */
+
+/* Faz tudo se adaptar melhor */
+* {
+    box-sizing: border-box;
+}
+
+/* Imagens nunca estouram */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estrutura principal fluida */
+.caixa,
+main,
+.produtos {
+    width: 90%;
+    max-width: 940px;
+}
+
+/* MENU RESPONSIVO */
+@media (max-width: 768px) {
+
+    .caixa {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        margin-top: 20px;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* BENEFÍCIOS RESPONSIVO */
+@media (max-width: 768px) {
+
+    .beneficios ul {
+        width: 100%;
+        margin: 0 0 20px 0;
+        display: block;
+    }
+
+    .imagembeneficios {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+/* PRODUTOS RESPONSIVO */
+@media (max-width: 768px) {
+
+    .produtos li {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+}
+
+/* FORMULÁRIO RESPONSIVO */
+@media (max-width: 768px) {
+
+    .input-texto {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    .enviar {
+        width: 100%;
+    }
+}
