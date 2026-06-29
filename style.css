@@ -80,25 +80,27 @@ main {
 
 /* PRODUTOS */
 .produtos {
-    width: 940px;
+    width: 90%;
+    max-width: 940px;
     margin: 0 auto;
     padding: 50px 0;
+
+    display: flex;
+    justify-content: space-between; /* distribui igual */
+    align-items: stretch;
 }
 
 .produtos li {
-    display: inline-block;
     text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
+    width: 30%; /* 3 itens lado a lado */
     padding: 30px 20px;
     box-sizing: border-box;
     border: 1px solid #334155;
     border-radius: 12px;
     background: #0F172A;
     transition: 0.3s;
+    list-style: none;
 }
-
 .produtos li:hover {
     border-color: #D4AF37;
     transform: translateY(-5px);
